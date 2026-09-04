@@ -1,0 +1,56 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment / secrets (local)
+.env
+*.env
+
+# Notebook output / metadata helpers
+.ipynb_checkpoints/
+
+# IDEs and editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packaging / build
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# C extensions / compiled objects
+*.so
+
+# pytest cache
+.pytest_cache/
+
+# Optional: ignore common data file types (uncomment if your sample data is private/large)
+# /Pandas/*.csv
+# /Pandas/*.xlsx
+# /Pandas/*.xls
+# /Pandas/*.json
+# /data.json
+# /Pandas/data.xlsx
+# /Pandas/data.csv
+
+# Keep this at the end for any local overrides
+# !keep-this-file-if-needed.txt
